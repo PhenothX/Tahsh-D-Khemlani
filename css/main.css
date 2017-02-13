@@ -1,0 +1,45 @@
+body {
+/* margin-top: 40px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+background: url(../Images/246.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/* Align div in center */
+#center {
+    display: table;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#MainTitle {
+    font-size: 60px;
+    font-family: carnevalee;
+    color: lightseagreen;
+    text-shadow: 2px 2px black;
+}
+
+/* Copyright */
+#copyrighttext {
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 5px;
+}
+
+/* Navbar color */
+.navbar {
+background: url(../Images/246.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.navbar-custom {
+    background-color: black;
+}
