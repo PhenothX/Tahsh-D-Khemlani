@@ -8,7 +8,7 @@ if($_POST["submit"]) {
     $name=$_POST["name"];
     $email=$_POST["email"];
     $message=$_POST["message"];
-    $check=$_POSt["check"];
+    $check=$_POST["check"];
     
 
 
@@ -19,7 +19,6 @@ if($_POST["submit"]) {
         mail("phenothx@gmail.com", $subject, $mailBody, "From: phenothx@gmail.com");
         main(sendto,subject,email,from);
         
-    if(empty($check)) {
     }
     else
     {
@@ -35,5 +34,3 @@ if($_POST["submit"]) {
 
     
 }
-
-?>
