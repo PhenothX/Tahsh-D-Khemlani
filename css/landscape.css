@@ -15,6 +15,20 @@ background-size: cover;
     padding-top: 5px;
 }
 
+
+/* Navbar color */
+.navbar {
+background: url(../Images/52.jpeg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.navbar-custom {
+    background-color: black;
+}
+
 #galleryimages {
   /*filter: gray; /* IE6-9 */
   /*-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -36,16 +50,3 @@ background-size: cover;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-/* Navbar color */
-.navbar {
-background: url(../Images/52.jpeg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-.navbar-custom {
-    background-color: black;
-}
