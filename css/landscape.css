@@ -37,7 +37,7 @@ background-size: cover;
     left: 50%;
     transform: translate(-50%, -50%);
     
-    /* Navbar color */
+/* Navbar color */
 .navbar {
 background: url(../Images/52.jpeg) no-repeat center center fixed; 
 -webkit-background-size: cover;
