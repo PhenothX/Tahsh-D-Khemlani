@@ -1,14 +1,18 @@
 /* Copyright */
+
 #copyrighttext {
-    font-size: 15px;
-    color: white;
-    text-shadow: 2px 2px black;
-    padding-top: 5px;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px black;
+  padding-top: 5px;
 }
 
+
 /* Navbar color */
+
+
 /* .navbar {
- background: url(../Images/video.mp4) no-repeat center center fixed; 
+ background: url(../Images/video.mp4) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -20,41 +24,41 @@ background-size: cover;
 } */
 
 .background-wrap {
-    position: fixed;
-    z-index: -1000;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    top:0;
-    left: 0;
+  position: fixed;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
 }
 
 #video-bg-elem {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .content {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    z-index: 1000;
-    background-color: rgba(0,0,0,0.4);
-    text-align: center;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
 .content h1 {
-    padding-top: 18%;
-    font-size: 60px;
-    font-family: carnevalee;
-    color: lightseagreen;
-    text-shadow: 2px 2px black;
+  padding-top: 18%;
+  font-size: 60px;
+  font-family: carnevalee;
+  color: lightseagreen;
+  text-shadow: 2px 2px black;
 }
 
 .content p {
-    font-size: 26px;
-    color: lightseagreen;
-    text-shadow: 2px 2px black;
-    margin-top: -30px;
+  font-size: 26px;
+  color: lightseagreen;
+  text-shadow: 2px 2px black;
+  margin-top: -30px;
 }

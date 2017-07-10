@@ -1,6 +1,6 @@
 body {
 /* margin-top: 40px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-background: url(../Images/52.jpeg) no-repeat center center fixed; 
+background: url(../Images/52.jpeg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -25,8 +25,8 @@ background-size: cover;
 }
 
 /* Navbar color */
-.navbar {
-background: url(../Images/52.jpeg) no-repeat center center fixed; 
+/* .navbar {
+background: url(../Images/52.jpeg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -35,7 +35,7 @@ background-size: cover;
 
 .navbar-custom {
     background-color: black;
-}
+} */
 
 /* Scrollbar when page is reduced to smaller resolution */
 .wrapper {
