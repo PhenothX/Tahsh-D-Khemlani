@@ -7,22 +7,6 @@
   padding-top: 5px;
 }
 
-
-/* Navbar color */
-
-
-/* .navbar {
- background: url(../Images/video.mp4) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-.navbar-custom {
-    background-color: black;
-} */
-
 .background-wrap {
   position: fixed;
   z-index: -1000;

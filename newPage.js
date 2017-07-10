@@ -16,7 +16,7 @@ function changePagePersonalAdventures()
 }
 
 
-function changePageContact()
+function changePageAbout()
 {
-  window.location.href = "./contact.html";
+  window.location.href = "./about.html";
 }
