@@ -15,20 +15,6 @@ background-size: cover;
     padding-top: 5px;
 }
 
-#galleryimages {
-    box-shadow: 1px 1px 1px 1px;
-    margin-bottom: 10px;
-}
-
-#center {
-    display: table;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
 .panel-image {
     position: relative;
 }

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Tahsh Khemlani</title>
+  <title>Events</title>
 
   <style>
     /* Fonts */
@@ -19,11 +19,20 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Gridy -->
+  <link href="css/gridy/gridy.min.css" rel="stylesheet">
+    
   <!-- Pure -->
   <link href="css/pure/pure.css" rel="stylesheet">
 
+  <!-- Gridstack.js -->
+  <link rel="stylesheet" href="gridstack.css" />
+  <script src="gridstack.js"></script>
+  <script src="gridstack.jQueryUI.js"></script>
+
   <!-- My own -->
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/landscape.css" rel="stylesheet">
 
   <script type="text/javascript" src="./newPage.js"></script>
 
@@ -36,13 +45,6 @@
 </head>
 
 <body>
-  <!-- Background Video-->
-  <div class="background-wrap">
-    <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
-              <source src="background.mp4" type="video/mp4">
-          </video>
-  </div>
-
   <!-- Navbar -->
   <nav class="navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -54,7 +56,7 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
         </button>
-        <div class="panel-image">
+        <div class="panel-image2">
           <img src="Images/logo.png" class="panel-image-preview" width="50px" height="50px"/>
         </div>
       </div>
@@ -63,10 +65,10 @@
 
       <div class="collapse navbar-collapse" id="mainNavBar">
         <ul class="nav navbar-nav">
-          <li class="active"><a onclick="changePageHome()">Home</a> </li>
+          <li><a onclick="changePageHome()">Home</a> </li>
           <li><a onclick="changePagePortraits()">Portraits</a></li>
           <li><a onclick="changePagePersonalAdventures()">Personal Adventures</a></li>
-          <li><a onclick="changePageEvents()">Events</a></li>
+          <li class="active"><a onclick="changePageEvents()">Events</a></li>
           <li><a onclick="changePageAbout()">About</a></li>
         </ul>
 
@@ -81,10 +83,32 @@
   </nav>
 
   <!-- Main Content -->
-  <div class="content">
-    <h1>TAHSH KHEMLANI</h1>
-    <p>PASSION RESIDES IN OUR SOULS</p>
-  </div>
+
+  <!-- <div class="grid-stack">
+    <div class="grid-stack-item"
+        data-gs-x="0" data-gs-y="0"
+        data-gs-width="4" data-gs-height="2">
+            <div class="grid-stack-item-content"></div>
+    </div>
+    <div class="grid-stack-item"
+        data-gs-x="4" data-gs-y="0"
+        data-gs-width="4" data-gs-height="4">
+            <div class="grid-stack-item-content"></div>
+    </div>
+</div>
+    
+  <script type="text/javascript">
+$(function () {
+    $('.grid-stack').gridstack();
+});
+</script> -->
+    
+<div class="env" style="margin-top: 100px;">
+    <div class="row">
+        <div class="cm-12 cs-6">1</div>
+        <div class="cm-12 cs-6">2</div>
+    </div>
+</div>
 
   <!-- Copyright -->
   <div class="navbar navbar-custom navbar-fixed-bottom">
@@ -95,10 +119,13 @@
 
   </div>
 
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <!-- Isotope JS -->
+  <script src="/js/isotope.pkgd.min.js"></script>
 </body>
 
 </html>

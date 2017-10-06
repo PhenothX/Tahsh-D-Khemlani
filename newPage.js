@@ -15,6 +15,10 @@ function changePagePersonalAdventures()
   window.location.href = "./personaladventures.html";
 }
 
+function changePageEvents()
+{
+  window.location.href = "./events.html";
+}
 
 function changePageAbout()
 {
